@@ -1,0 +1,26 @@
+{
+  "name": "WithoutGraphql",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Node.js Todo List Implementations without Graphql",
+  "main": "./src/app.js",
+  "scripts": {
+    "prod": "NODE_ENV=PRODUCTION node ./src/server.js",
+    "dev": "NODE_ENV=DEVELOPMENT nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}

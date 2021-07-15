@@ -1,5 +1,7 @@
 # Convergence_Node.js
 
+*** .env file is for development purpose
+
 Requirements:
   1. Use Node.js
   

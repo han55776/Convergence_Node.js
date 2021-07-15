@@ -13,7 +13,7 @@ Requirements:
   
   3. Only the owner of a todo item can update or delete a todo item
   
-    - Yes, (Only original composer can access with token and writer verification process)
+    - Yes, (Only original composer can access with jwt token src/middlewares/privateAccess.js and writer verification process)
   
   4. A user can use the REST API to search todo items by different filters. (e.g. description, category - up to you)
   
@@ -21,7 +21,7 @@ Requirements:
   
   5. A login endpoint with simple authentication logic
   
-    - Yes, (User token must be authenticated with jwt verification src/middlewares/privateAccess.js)
+    - Yes, (User can signin with email and password. Once signed successfully, user will be given token as response )
   
   6. Validation and error handling where it is considered appropriate
   

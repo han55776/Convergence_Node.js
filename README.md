@@ -28,10 +28,7 @@ Requirements:
     - Yes, (Parameters are to be validated through src/middlewares/validate.js, and errors are passed to src/middlewares/error.js)
   
 Bonus:
-  1. Use GraphQL
   
-    - Processing...
-  
-  2. Database connection/configuration setup (DB engine of choice - again, no hosted DB is expected to be provided)
+  1. Database connection/configuration setup (DB engine of choice - again, no hosted DB is expected to be provided)
   
     - Yes, (Once the server app starts, it connects database url src/utils/database.js)
